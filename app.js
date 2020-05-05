@@ -8,5 +8,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(process.env.PORT || 3000, process.env.IP, function (err) {
-  console.log("sever soumen started.");
+  console.log("sever started.");
 });
